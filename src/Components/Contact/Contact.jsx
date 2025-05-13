@@ -5,7 +5,7 @@ Date:01-10-2024 */
 
 import React from 'react'
 import './Contact.css'
-import Theme from '../../assets/Theme.png'
+import Theme from '../../assets/theme.png'
 import Call from '../../assets/call.png'
 import Mail from '../../assets/mail.png'
 import Location from '../../assets/Location.svg'

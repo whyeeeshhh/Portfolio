@@ -5,7 +5,7 @@ Date:01-10-2024 */
 
 import React from 'react';
 import './MyWork.css'
-import Theme from '../../assets/Theme.png'
+import Theme from '../../assets/theme.png'
 import RealEstate1 from '../../assets/RealEstate1.png'
 import ProductPage from '../../assets/Project3.png'
 import Calculator from '../../assets/Calculator.png'

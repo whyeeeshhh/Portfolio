@@ -5,7 +5,7 @@ Date:01-10-2024 */
 
 import React from 'react'
 import './Services.css'
-import Theme from '../../assets/Theme.png'
+import Theme from '../../assets/theme.png'
 
 const Services = () => {
   return (
