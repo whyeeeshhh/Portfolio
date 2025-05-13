@@ -137,4 +137,13 @@ Date:01-10-2024 */
     .about-skill hr{
         height:6px;
     }
+
+    
+}
+
+@media(max-width:463px){
+    .about-skill {
+        display: flex;
+        flex-direction: column;
+    }
 }
