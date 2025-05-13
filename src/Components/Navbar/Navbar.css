@@ -1,0 +1,114 @@
+/* Navbar.css
+Name: Vaishnavi Aju
+Student ID:301346741
+Date:01-10-2024 */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 50px;
+}
+
+.nav-mob-open{
+    display: none;
+}
+
+.menu{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    list-style: none;
+    gap:30px;
+    font-size: clamp(16px, 2vw, 22px);
+    font-weight: bold;
+    margin: 0;
+}
+
+.menu p{
+    transition: 0.3s;
+}
+.menu p:hover{
+    transform: scale(1.5);
+}
+
+.nav-connect{
+    padding:20px 20px;
+    border-radius: 50px;
+    background: rgb(220, 115, 132);
+    font-size: clamp(16px, 2vw, 20px);
+    cursor: pointer;
+    color:white;
+    transition: 0.05s;
+    margin-left: auto;
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+
+
+.logo{
+    width: 300px;
+    margin-right:auto;
+}
+
+.anchor-link{
+    text-decoration: none;
+    color:gray;
+}
+
+.nav-mob-close{
+    display: none;
+}
+
+#con{
+    color:White;
+}
+
+@media(max-width:768px){
+    .navbar{
+        margin:20px 50px
+    }
+
+    .nav-connect{
+        display: none;
+    }
+
+    .nav-mob-open{
+        display:block;
+        position:fixed;
+        right: 30px;
+        width:40px;
+    }
+
+    .nav-mob-close{
+        display:block;
+        position:relative;
+        top:20px;
+        right:80px;
+        width:30px;
+    }
+
+    .menu{
+        position:fixed;
+        flex-direction: column;
+        align-items: center;
+        top:0;
+        gap:30px;
+        background-color: #e6a0a4;
+        width:300px;
+        height:100%;
+        z-index: 2;
+        transition:right 0.5s;
+        right: -350px;
+    }
+
+
+    .menu li{
+        font-size: 30px;
+        padding-left:10px;
+        padding-top: 0;
+        gap:20px;
+    }
+}

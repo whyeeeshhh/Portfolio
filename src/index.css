@@ -1,0 +1,16 @@
+/* index.css
+Name: Vaishnavi Aju
+Student ID:301346741
+Date:01-10-2024 */
+
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+  height:100vh;
+  background: rgb(255, 255, 255);
+  color:rgb(128, 128, 128);
+  font-family: 'Times New Roman', Times, serif;
+}

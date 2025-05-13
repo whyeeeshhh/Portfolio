@@ -1,0 +1,181 @@
+/* Contact.css
+Name: Vaishnavi Aju
+Student ID:301346741
+Date:01-10-2024 */
+
+.contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    margin:80px 170px;
+}
+
+.contact-title{
+    position: relative;
+}
+
+.contact-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.contact-title img{
+    position:absolute;
+    bottom: -40px;
+    right: -90px;
+    z-index: -1;
+    width:300px;
+    height:90px;
+}
+
+.contact-section{
+    display:flex;
+    gap:30px;
+}
+
+.contact-left{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.contact-left h1{
+    font-size:80px;
+    font-weight: 700;
+    background: linear-gradient(270deg,rgb(228, 183, 190) 0.36%,rgb(244, 100, 124)102.6%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-left p{
+    max-width:550px;
+    color: gray;
+    font-size:20px;
+}
+
+.contact-details{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    font-size: 22;
+}
+
+.contact-detail img{
+    width:30px;
+}
+
+
+.contact-detail{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+}
+
+.contact-right{
+    padding-top:30px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    gap:30px;
+}
+
+.contact-right label{
+    color:gray;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.contact-right input{
+    border:none;
+    width: 700px;
+    height: 78px;
+    padding-left:20px;
+    border-radius:4px;
+    background: rgb(241, 130, 145);
+    color: rgb(118, 118, 118);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+
+.contact-right textarea{
+    width:650px;
+    border:none;
+    padding:25px;
+    border-radius:4px;
+    background:rgb(241, 130, 145);
+    color:rgb(118, 118, 118);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+
+.contact-submit{
+    border:none;
+    color:white;
+    border-radius:50px;
+    background: rgb(244, 100, 124);
+    font-size:22px;
+    padding:20px 60px;
+    margin-bottom: 50px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-submit:hover{
+    transform:scale(1.1);
+    transition: 0.3s;
+}
+
+@media(max-width:768px){
+    .contact{
+        gap:50px;
+        margin: 50px 70px;
+        align-items: center;
+    }
+
+    .contact-title{
+        padding:0;
+        font-size:50px;
+        font-weight:600;
+    }
+
+    .contact-title img{
+        width: 130px;
+        right:-20px;
+    }
+
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contact-left h1{
+        font-size: 3.5rem;
+    }
+
+    .contact-left p{
+        font-size: 18px;
+    }
+
+    .contact-details{
+        gap:0.5rem;
+    }
+
+    .contact-right{
+        gap:1rem;
+    }
+
+    .contact-right input{
+        width: 90%;
+    }
+
+    .contact-right textarea{
+        width: 84%;
+    }
+
+}
