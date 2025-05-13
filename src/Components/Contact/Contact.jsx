@@ -8,7 +8,7 @@ import './Contact.css'
 import Theme from '../../assets/theme.png'
 import Call from '../../assets/call.png'
 import Mail from '../../assets/mail.png'
-import Location from '../../assets/Location.svg'
+import Location from '../../assets/location.svg'
 
 const Contact = () => {
     const onSubmit = async (event) => {
