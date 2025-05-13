@@ -108,5 +108,12 @@ Date:01-10-2024 */
         padding: 20px 50px;
         border-radius: 40px;
     }
+    
 
 }   
+@media(max-width:463px){
+    .hero-action {
+        display: flex;
+        flex-direction: column;
+    }
+}
